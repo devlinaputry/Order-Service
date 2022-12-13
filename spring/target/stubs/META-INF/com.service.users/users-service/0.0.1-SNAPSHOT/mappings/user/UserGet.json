@@ -1,0 +1,24 @@
+{
+  "id" : "c5400018-164e-43e6-8627-2b03eaf28eb3",
+  "request" : {
+    "url" : "/users",
+    "method" : "GET",
+    "headers" : {
+      "Content-Type" : {
+        "matches" : "application/json.*"
+      },
+      "Accept" : {
+        "matches" : "application/json.*"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "Hello",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template", "spring-cloud-contract" ]
+  },
+  "uuid" : "c5400018-164e-43e6-8627-2b03eaf28eb3"
+}

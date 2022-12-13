@@ -1,0 +1,5 @@
+com\service\users\controller\BaseControllerTests.class
+com\service\users\verifier\UsersVerifierTest.class
+com\service\users\services\OrderServiceTests.class
+com\service\users\controller\OrderControllerTests.class
+com\service\users\verifier\UserTest.class
